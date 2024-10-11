@@ -1,0 +1,8 @@
+[submodule "themes/hextra"]
+	path = themes/hextra
+	url = https://github.com/imfing/hextra.git
+
+[submodule "public"]
+	path = public
+	url = https://github.com/perfsky/perfsky.github.io.git
+	branch = main
