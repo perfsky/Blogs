@@ -10,6 +10,41 @@ enableEmoji: true
 hasCJKLanguage: true
 
 
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Sakuya's Blog
+  # zh-cn:
+  #   languageName: 简体中文
+  #   languageCode: zh-CN
+  #   weight: 2
+  #   title: Sakuya's Blog
+
+# module:
+#   hugoVersion:
+#     extended: true
+#     min: "0.112.0"
+
+#   workspace: hugo.work
+#   imports:
+#     - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
 # 将来的打算：增加项目更新&修复搜索&修复切换白天/黑夜
 menu:
   main:
@@ -29,12 +64,12 @@ menu:
       name: About
       pageRef: /about
       weight: 4
-    - name: Search
-      weight: 5
-      params:
-        type: search
+    # - name: Search
+    #   weight: 5
+    #   params:
+    #     type: search
     - name: GitHub
-      weight: 6
+      weight: 5
       url: "https://github.com/perfsakuya"
       params:
         icon: github
@@ -102,7 +137,7 @@ params:
 
   theme:
     # light | dark | system
-    default: dark
+    default: system
     displayToggle: true
 
   footer:
@@ -117,7 +152,7 @@ params:
   # Search
   # flexsearch is enabled by default
   search:
-    enable: true
+    enable: false
     type: flexsearch
 
     flexsearch:
