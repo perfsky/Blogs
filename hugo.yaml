@@ -64,12 +64,12 @@ menu:
       name: About
       pageRef: /about
       weight: 4
-    # - name: Search
-    #   weight: 5
-    #   params:
-    #     type: search
-    - name: GitHub
+    - name: Search
       weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
       url: "https://github.com/perfsakuya"
       params:
         icon: github
@@ -152,7 +152,7 @@ params:
   # Search
   # flexsearch is enabled by default
   search:
-    enable: false
+    enable: true
     type: flexsearch
 
     flexsearch:
