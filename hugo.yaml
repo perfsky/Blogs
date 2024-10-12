@@ -45,7 +45,7 @@ markup:
 
 enableInlineShortcodes: true
 
-# 将来的打算：增加项目更新&修复搜索&修复切换白天/黑夜
+# 将来的打算：增加项目更新
 menu:
   main:
     - identifier: my_blog
