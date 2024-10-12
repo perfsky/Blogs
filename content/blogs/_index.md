@@ -1,6 +1,6 @@
 +++
-title = ""
+title = "Blog List"
 date = 2024-10-11T21:11:58+08:00
 +++
 
-### Blog List
+### 写点什么……
