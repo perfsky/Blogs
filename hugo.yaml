@@ -15,17 +15,18 @@ outputs:
   page: [HTML]
   section: [HTML, RSS]
 
-defaultContentLanguage: en
+defaultContentLanguage: zh-cn
 languages:
-  en:
-    languageName: English
+  zh-cn:
+    languageName: 简体中文
+    languageCode: zh-CN
     weight: 1
     title: Sakuya's Blog
-  # zh-cn:
-  #   languageName: 简体中文
-  #   languageCode: zh-CN
+  # en:
+  #   languageName: English
   #   weight: 2
   #   title: Sakuya's Blog
+
 
 # module:
 #   hugoVersion:
@@ -160,7 +161,7 @@ params:
       index: content
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
-      tokenize: forward
+      tokenize: full
 
   editURL:
     enable: false

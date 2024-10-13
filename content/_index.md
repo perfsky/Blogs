@@ -2,6 +2,9 @@
 title = ""
 date = 2024-10-12T20:34:58+08:00
 toc = false
+# slug = "xxx"
+# draft = true
+# weight = 1
 +++
 
 <style>
@@ -25,18 +28,18 @@ toc = false
 <div style="display: flex; justify-content: center; flex-wrap: wrap; row-gap: 0px; column-gap: 15px; margin-top: 0em;">
     {{< cards >}}
         <div style="min-width: 300px;"> <!-- 设置卡片最小宽度 -->
-            {{< card link="/blogs" title="Blog" icon="pencil" >}}
+            {{< card link="/blogs" title="博客" icon="pencil" >}}
         </div>
         <div style="min-width: 300px;">
-            {{< card link="/thoughts" title="Thoughts" icon="light-bulb" >}}
+            {{< card link="/thoughts" title="想法" icon="light-bulb" >}}
         </div>
     {{< /cards >}}
     {{< cards >}}
         <div style="min-width: 300px;">
-            {{< card link="/misc" title="Misc" icon="code">}}
+            {{< card link="/misc" title="杂项" icon="code">}}
         </div>
         <div style="min-width: 300px;">
-            {{< card link="/about" title="About" icon="heart">}}
+            {{< card link="/about" title="关于" icon="heart">}}
         </div>
     {{< /cards >}}
 </div>
