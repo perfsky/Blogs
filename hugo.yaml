@@ -185,10 +185,10 @@ params:
 
     # https://giscus.app/
     giscus:
-      repo: perfsky/Blogs
-      repoId: R_kgDOM-0ipw
+      repo: perfsky/perfsky.github.io
+      repoId: R_kgDOM-0keg
       category: General
-      categoryId: DIC_kwDOM-0ip84CjTzt
+      categoryId: DIC_kwDOM-0kes4CjT0r
       mapping: pathname
       strict: 0
       reactionsEnabled: 0
