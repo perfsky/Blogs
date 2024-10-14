@@ -119,7 +119,7 @@ menu:
       weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: "Sakuya的个人博客. Sakuya's Personal Blog"
 
   navbar:
     displayTitle: true

@@ -2,6 +2,8 @@
 title = ""
 date = 2024-10-12T20:34:58+08:00
 toc = false
+keywords = ["Blog","Technology","Coding","CTF","Computer Science"]
+description="Sakuya's Personal Blog"
 # slug = "xxx"
 # draft = true
 # weight = 1

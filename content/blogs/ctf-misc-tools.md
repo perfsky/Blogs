@@ -1,6 +1,7 @@
 +++
 title = "【CTF】MISC常用工具集锦/使用方法简介"
-description = ""
+keywords = ["Blog","Technology","CTF","Misc"]
+description="一些Misc常用的工具以及使用方法总结"
 date = "2024-10-14"
 taxonomies = "1"
 +++
