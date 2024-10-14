@@ -1,14 +1,16 @@
 +++
-title = "【CTF】MISC常用工具集锦/使用方法简介"
+title = "CTF MISC常用工具集锦/使用方法简介"
 keywords = ["Blog","Technology","CTF","Misc"]
 description="一些Misc常用的工具以及使用方法总结"
-date = "2024-10-14"
+date = "2023-10-01"
 taxonomies = "1"
+slug = "ctf-misc-tools"
 +++
 
 ## 前言
 
 MISC题型多变而且工具繁杂，因此自己花时间整理了一份工具列表，以便日后参考用
+
 **流畅地阅读这篇博客，你可能需要：**
 
 - Python2.7.18 + Python3.8 + 任何一个更高版本的Python，使用conda管理

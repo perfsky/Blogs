@@ -4,6 +4,7 @@ keywords = ["Blog","Tutorial"]
 description = "简单的hugo博客搭建指南"
 date = "2024-10-13"
 taxonomies = "1"
+slug = "hextra-setup-tutorial"
 +++
 
 > 以Hextra主题为例的Hugo博客搭建指南
@@ -33,7 +34,7 @@ taxonomies = "1"
 
 ### 文件完整性校验不通过导致博客功能失效[^1]
 
-![landscape](./hextra-setup-tutorial/hextra-setup-tutorial_blocker-js-css.png "如图")
+![landscape](./hextra-setup-tutorial/hextra-setup-tutorial_blocked-js-css.png "如图")
 为确保脚本或者样式表不被恶意篡改，网页会使用`integrity`来校验文件完整性，如果计算的SHA-256值和指定的不匹配，则浏览器拒绝加载此资源。
 而在hugo生成静态资源后，如果尝试将其上传到github，有可能文件中的换行符会被git自动转换，导致本地文件和云端文件校验值不同。
 解决方法是关闭git自带的CRLF<-->LF转换：
