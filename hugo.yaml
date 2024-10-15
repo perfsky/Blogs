@@ -201,3 +201,10 @@ params:
 services:
   googleAnalytics:
     ID: G-XTKTFNE828
+
+# Don't know how to use it
+# frontmatter:
+#   date = ["date", "publishDate", "lastmod"]
+#   lastmod = [":git", "lastmod", "date", "publishDate"]
+#   publishDate = ["publishDate", "date"]
+#   expiryDate = ["expiryDate"]

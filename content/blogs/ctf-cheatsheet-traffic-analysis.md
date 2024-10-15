@@ -114,7 +114,6 @@ php在代码中同样会存在`eval`或`assert`等字符特征：
 
 ![landscape](./ctf-cheatsheet-traffic-analysis/behinder05.webp)
 
-
 建立连接，传输payload
 
 建立连接后的cookie存在特征字符
@@ -125,7 +124,7 @@ php在代码中同样会存在`eval`或`assert`等字符特征：
 
 [https://www.freebuf.com/articles/247009.html](https://www.freebuf.com/articles/247009.html)
 
-少了动态密钥的获取的请求，不再使用随机生成 key，改为取连接密码的 md5 前 16 位作为密钥 一次请求为判断是否可以建立连接，少了两次 get 获取冰蝎动态密钥的行为，第二次发送 phpinfo 等代码执行。去除了动态密钥协商机制，采用预共享密钥，全程无明文交互，密钥格式为md5(“admin”)[0:16]
+少了动态密钥的获取的请求，不再使用随机生成 key，改为取连接密码的 md5 前 16 位作为密钥 一次请求为判断是否可以建立连接，少了两次 get 获取冰蝎动态密钥的行为，第二次发送 phpinfo 等代码执行。去除了动态密钥协商机制，采用预共享密钥，全程无明文交互，密钥格式为`md5(“admin”)[0:16]`
 
 #### 请求头
 
@@ -191,7 +190,7 @@ Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
 
 #### HTTP头特征
 
-- **Accept 头通常固定**
+##### Accept 头通常固定
 
 ```bash
 Accept: application/json, text/javascript, */*; q=0.01 意思是浏览器可接受任何文件，但最倾向application/json 和 text/javascript。
@@ -201,15 +200,15 @@ Accept-Encoding: identity
 Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
 ```
 
-- **Content-Length 较大**
+##### Content-Length 较大
 
 `Content-Length: 8244` 作为辅助特征
 
-- **默认使用长连接**
+##### 默认使用长连接
 
 `Connection: Keep-Alive`
 
-- **Content-Type**
+##### Content-Type
 
 PHP站点：`Content-type: Application/x-www-form-urlencoded`
 
@@ -217,13 +216,13 @@ ASP站点：`Content-type: Application/octet-stream`
 
 可以把这个字段作为一个弱特征，辅助其他特征来检测
 
-- **User-agent**
+##### User-agent
 
 冰蝎设置了10种User-Agent,每次连接shell时会随机选择一个进行使用。
 
 ![landscape](./ctf-cheatsheet-traffic-analysis/behinder06.jpg)
 
-- **响应头字段**
+##### 响应头字段
 
 ```bash
 Set-Cookie: PHPSESSID=a59734f13f1fe73947e0b3b01ea2aabe; path=/
@@ -231,17 +230,17 @@ Set-Cookie: PHPSESSID=a59734f13f1fe73947e0b3b01ea2aabe; path=/
 Pragma: no-cache
 ```
 
-- **流量特征**
+##### 流量特征
 
-1. 默认密钥
+- 默认密钥
 
 默认时，所有冰蝎4.0 webshell都有`e45e329feb5d925b` 一串密钥。该密钥为连接密码32位md5值的前16位，默认连接密码`rebeyond`
 
-2. 端口
+- 端口
 
 冰蝎与webshell建立连接的同时，javaw也与目的主机建立tcp连接，每次连接使用本地端口在`49700`左右，每连接一次，每建立一次新的连接，端口就依次增加。
 
-3. PHP webshell 中存在固定代码
+- PHP webshell 中存在固定代码
 
 ```php
 $post=Decrypt(file_get_contents("php://input"));
