@@ -17,11 +17,11 @@ description="Sakuya's Personal Blog"
 </style>
 
 <div align="center" style="margin-top: 20vh;"> <!-- 确保居中 -->
-    <h1 style="font-size: 4.5em; font-family: 'Times New Roman', serif; margin-bottom: 0em;">
+    <h1 style="font-size: 5em; font-family: 'Times New Roman', serif; margin-bottom: 0em;">
         Sakuya's Blog
     </h1>
     <h3 style="font-size: 1.8em; font-family: 'Times New Roman', serif; margin-top: 0em;">
-        Stay Hungry, Stay Foolish
+        Stay Hungry. Stay Foolish.
     </h3>
 </div>
 
