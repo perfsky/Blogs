@@ -7,5 +7,10 @@ comments = false
 
 ### 最近更新
 
-{{< card link="./ctf-cheatsheet-traffic-analysis" title="WebShell Traffic Analysis" icon="book-open" >}}
-{{< card link="./ctf-misc-tools" title="CTF Misc Tools" icon="book-open" >}}
+<div style="margin-top: 10px;">
+  {{< card link="./ctf-cheatsheet-traffic-analysis" title="WebShell Traffic Analysis" icon="book-open" >}}
+</div>
+
+<div style="margin-top: 10px;">
+  {{< card link="./ctf-misc-tools" title="CTF Misc Tools" icon="book-open" >}}
+</div>

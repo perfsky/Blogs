@@ -5,4 +5,8 @@ toc = false
 comments = false
 +++
 
-### 一点想法
+### 最近更新
+
+<div style="margin-top: 10px;">
+  {{< card link="./raspi-simulator-tutorial" title="Lakka模拟器部署教程" icon="terminal" >}}
+</div>

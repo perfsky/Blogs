@@ -4,14 +4,14 @@ keywords = ["Emulator","RetroArch", "Technology","Raspberry Pi","Tutorial"]
 description="Lakka模拟器部署教程"
 date = "2024-10-27"
 taxonomies = "1"
-slug = "raspi-lakka-simulator-tutorial"
+slug = "raspi-simulator-tutorial"
 +++
 
 ## 前言
 
 最近有点心痒，总想着要折腾点东西，于是把吃灰两年多的树莓派4b翻了出来。正经 Linux 想必是带不动的，手头上又正好有几个psp游戏，于是便想着装个模拟器，在 RetroPie 和 Lakka 之间选了界面更美观的 Lakka。
 
-![image](./raspi_emulator_tutorial/00.png)
+![image](./raspi-simulator-tutorial/00.png)
 
 ## 准备工作
 
