@@ -33,12 +33,12 @@ description="Sakuya's Personal Blog"
             {{< card link="/blogs" title="博客" icon="pencil" >}}
         </div>
         <div style="min-width: 300px;">
-            {{< card link="/thoughts" title="想法" icon="light-bulb" >}}
+            {{< card link="/matches" title="比赛" icon="code" >}}
         </div>
     {{< /cards >}}
     {{< cards >}}
         <div style="min-width: 300px;">
-            {{< card link="/misc" title="杂项" icon="code">}}
+            {{< card link="/misc" title="杂项" icon="light-bulb">}}
         </div>
         <div style="min-width: 300px;">
             {{< card link="/about" title="关于" icon="heart">}}

@@ -53,9 +53,9 @@ menu:
       name: Blog
       pageRef: /blogs
       weight: 1
-    - identifier: thoughts
-      name: Thoughts
-      pageRef: /thoughts
+    - identifier: matches
+      name: Matches
+      pageRef: /matches
       weight: 2
     - identifier: misc
       name: Misc

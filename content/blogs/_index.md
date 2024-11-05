@@ -8,9 +8,5 @@ comments = false
 ### 最近更新
 
 <div style="margin-top: 10px;">
-  {{< card link="./ctf-cheatsheet-traffic-analysis" title="WebShell Traffic Analysis" icon="book-open" >}}
-</div>
-
-<div style="margin-top: 10px;">
-  {{< card link="./ctf-misc-tools" title="CTF Misc Tools" icon="book-open" >}}
+  {{< card link="./hextra-setup-tutorial" title="Hextra主题博客搭建指南" icon="book-open" >}}
 </div>

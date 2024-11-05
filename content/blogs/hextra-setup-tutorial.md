@@ -1,5 +1,5 @@
 +++
-title = "博客搭建指南"
+title = "Hextra主题博客搭建指南"
 keywords = ["Blog","Tutorial"]
 description = "简单的hugo博客搭建指南"
 date = "2024-10-13"
