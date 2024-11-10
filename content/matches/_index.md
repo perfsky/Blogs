@@ -8,7 +8,7 @@ comments = false
 ### 最近更新
 
 <div style="margin-top: 10px;">
-  {{< card link="./ctf-cheatsheet-traffic-analysis" title="WebShell Traffic Analysis" icon="book-open" >}}
+  {{< card link="./qiangwang2024-misc" title="[强网2024初赛] MISC-谍影重重5.0 WriteUp" icon="book-open" >}}
 </div>
 
 <div style="margin-top: 10px;">
