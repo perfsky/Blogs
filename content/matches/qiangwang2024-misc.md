@@ -31,7 +31,7 @@ tom::.:c1dec53240124487:ca32f9b5b48c04ccfa96f35213d63d75:010100000000000040d0731
 
 使用组合后的hash在hashcat中爆破。这里尝试了很多自定义掩码都没能解出，最后用133MB的rockyou成功爆破出来：
 ![image](./qiangwang2024-misc/01.png)
-最后得出SMB账号密码：tom:babygirl233，随后使用用户名、域、密码和其他内容计算Session Key。
+最后得出SMB账号密码：`tom:babygirl233`，随后使用用户名、域、密码和其他内容计算Session Key。
 [SMB Decryption - TryHackMe](https://malwarelab.eu/posts/tryhackme-smb-decryption/#method-2-decrypting-smb-with-the-ntlm-ha)
 
 ```python
