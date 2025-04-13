@@ -137,4 +137,4 @@ dir不加参数则初始化搜索路径为空
 
 [GDB 备忘清单 & gdb cheatsheet & Quick Reference](https://quickref.cn/docs/gdb.html)
 
-[CheatSheet PDF](G[DB-cheat-sheet.pdf](https://www.sourceware.org/gdb/download/onlinedocs/refcard.pdf))
+[CheatSheet PDF](https://www.sourceware.org/gdb/download/onlinedocs/refcard.pdf)
