@@ -43,7 +43,7 @@ function stop() {
 
 帧生成时间指的是每个完整帧从开始到结束渲染的时间。一般情况下，帧生成时间要小于当前刷新率下每帧持续显示的时间，这样才能确保画面显示稳定。否则可能会导致画面操作卡顿不跟手等问题。
 
-![unstable frame time](./frame_time_unstable.png "恼人的卡顿")
+![unstable frame time](./how-raf-and-frame-works/frame-time-unstable.png "恼人的卡顿")
 
 `requestAnimationFrame()` 的间隔时间由浏览器决定。浏览器内核监听显示器的VSync（垂直同步）信号，并自动同步频率，使`requestAnimationFrame()` 能够以精确的16.67ms触发回调（60帧的情况下）。
 
@@ -61,7 +61,7 @@ function stop() {
 
 简单来说，一个帧的完整生命周期如下：
 
-![life of a frame](./life_of_a_frame.png "简要步骤")
+![life of a frame](./how-raf-and-frame-works/life-of-a-frame.png "简要步骤")
 
 1. 在主线程中处理输入、JS事件（包括同步和异步任务）
 2. 由VSync信号驱动，检测是否需要更新页面，并触发一些系统事件
@@ -73,7 +73,7 @@ function stop() {
 
 而在Chromium文档中，一帧从开始到展现是如下的步骤：
 
-![chromium](./chromium_frame.png "分进程时序图")
+![chromium](./how-raf-and-frame-works/chromium-frame.png "分进程时序图")
 
 整个过程首先由四个进程组成：
 
@@ -131,7 +131,7 @@ GPU 进程（汇总、绘制、Swap）
 
 而HTML标准里，`requestAnimationFrame()` 被规定在更新渲染中（即render下一帧之前）
 
-![html standard](./html_standard.png "HTML 标准")
+![html standard](./how-raf-and-frame-works/html-standard.png "HTML 标准")
 
 因此使用以下的代码，在标准下应该从左开始移动：
 
@@ -163,7 +163,7 @@ resetButton.addEventListener("click", () => {
 
 但是，在笔者的浏览器（较新的Safari+Chrome）上，均会从右向左移动，似乎把回调推迟到了下一帧，这就很奇怪了，可能是浏览器的优化策略所致。
 
-![msifunction](./misfunction.gif "标准下应该从左向右移动")
+![msifunction](./how-raf-and-frame-works/misfunction.gif "标准下应该从左向右移动")
 
 [参考资料](https://zhuanlan.zhihu.com/p/64917985)
 
@@ -171,7 +171,7 @@ resetButton.addEventListener("click", () => {
 
 React 16.2.0弃用了`requestAnimationFrame()` ，采用message event loop。不仅是因为上文中的回调时机问题，也是因为`MessageChannel` 较为稳定，不会像`setTimeout()` 一样有4ms的最小延迟，也不会像`requestAnimationFrame()`一样触发事件受浏览器更新机制和VSync的影响。它既能及时让出主线程，又能够确保消息的稳定传递。
 
-[GitHub pr](https://github.com/facebook/react/pull/16214)
+[GitHub PR](https://github.com/facebook/react/pull/16214)
 
 [参考资料](https://kanglover.github.io/2024/09/19/react-requestIdleCallback/)
 

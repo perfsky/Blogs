@@ -8,7 +8,7 @@ comments = false
 ### 最近更新
 
 <div style="margin-top: 10px;">
-  {{< card link="./how-raf-and-frame-works" title="从requestAnimationFrame()探究浏览器渲染流程" icon="book-open" >}}
+  {{< card link="./how-raf-and-frame-works" title="从rAF()探究浏览器帧渲染流程" icon="book-open" >}}
 </div>
 
 <div style="margin-top: 10px;">
