@@ -30,7 +30,7 @@ description="Sakuya's Personal Blog"
 <div style="display: flex; justify-content: center; flex-wrap: wrap; row-gap: 0px; column-gap: 15px; margin-top: 0em;">
     {{< cards >}}
         <div style="min-width: 300px;"> <!-- 设置卡片最小宽度 -->
-            {{< card link="/blogs" title="博客" icon="pencil" >}}
+            {{< card link="/myblog" title="博客" icon="pencil" >}}
         </div>
         <div style="min-width: 300px;">
             {{< card link="/matches" title="比赛" icon="code" >}}

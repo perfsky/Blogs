@@ -51,7 +51,7 @@ menu:
   main:
     - identifier: my_blog
       name: Blog
-      pageRef: /blogs
+      pageRef: /myblog
       weight: 1
     - identifier: matches
       name: Matches
