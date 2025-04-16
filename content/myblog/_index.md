@@ -8,9 +8,9 @@ comments = false
 ### 最近更新
 
 <div style="margin-top: 10px;">
-  {{< card link="./how-raf-and-frame-works" title="从rAF()探究浏览器帧渲染流程" icon="book-open" >}}
+  {{< card link="./react-fiber-reconciliation" title="React Fiber流程简介" icon="book-open" >}}
 </div>
 
 <div style="margin-top: 10px;">
-  {{< card link="./hextra-setup-tutorial" title="Hextra主题博客搭建指南" icon="book-open" >}}
+  {{< card link="./how-raf-and-frame-works" title="从rAF()探究浏览器帧渲染流程" icon="book-open" >}}
 </div>
