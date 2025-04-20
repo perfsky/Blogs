@@ -8,6 +8,10 @@ comments = false
 ### 最近更新
 
 <div style="margin-top: 10px;">
+  {{< card link="./js-promise-deepdive" title="关于Promise的一些探究" icon="book-open" >}}
+</div>
+
+<div style="margin-top: 10px;">
   {{< card link="./react-fiber-reconciliation" title="React Fiber流程简介" icon="book-open" >}}
 </div>
 
