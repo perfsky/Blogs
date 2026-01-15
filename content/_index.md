@@ -11,8 +11,8 @@ description="Sakuya's Personal Blog"
 
 <style>
     /* body {
-        background-color: #f0f0f0; /* 设置页面背景色 */
-        color: #333; /* 可选：设置文本颜色 */
+        background-color: #f0f0f0;
+        color: #333;
     } */
 </style>
 
