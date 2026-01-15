@@ -10,6 +10,7 @@ MSG="${1:-Update blog $(date '+%Y-%m-%d %H:%M')}"
 
 # 发布到 GitHub Pages
 cd public
+git checkout main 2>/dev/null || true
 if [[ -n $(git status -s) ]]; then
     git add .
     git commit -m "$MSG"
