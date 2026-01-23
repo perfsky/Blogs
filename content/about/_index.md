@@ -115,7 +115,7 @@ comments = false
 <div class="about-container">
     <h1>Sakuya</h1>
     <h5>Jensen Tang</h5>
-    <h4>I write.</h4>
+    <h4>I write something.</h4>
     <div class="tech-icons">
         <i class="devicon-typescript-plain"></i>
         <i class="devicon-ubuntu-plain"></i>
