@@ -5,8 +5,8 @@ toc = false
 comments = false
 +++
 
-<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type='text/css' href="/css/devicon.min.css" />
+<link rel="stylesheet" type='text/css' href="/css/noto-sans.css" />
 
 <style>
     .about-container {
