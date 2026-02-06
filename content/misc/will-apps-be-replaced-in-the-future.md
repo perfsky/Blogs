@@ -7,6 +7,8 @@ taxonomies = "1"
 slug = "will-apps-be-replaced-in-the-future"
 +++
 
+> 一个不成熟的猜想
+
 最近几周自己比较闲，于是打算折腾各种agent玩具，让假期的时间显得不那么*unemployed*。我发现从年初开始，新的Agents就层出不穷，无论是代码开发（opencode），日常事务（openclaw）或者生活（点奶茶），只需要使用自然语言即可完成过去复杂的编码、review以及其他消耗热量的任务。
 
 这很好，尤其是当你跑出门时，用几句话就可以更改bot配置并顺便重启，你会马上忘记那些打开tailscale再连ssh，用5英寸触摸屏搞运维的时光。
